@@ -21,6 +21,7 @@ const ListOfDogs = () => {
     };
     myFun();
     setIsSubmit(false);
+    // eslint-disable-next-line
   }, [isSubmit]);
 
   const handDogNumber = (e)=>{
